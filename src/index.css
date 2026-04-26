@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Special+Elite&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================
+   GLOBAL TYPOGRAPHY
+   ========================= */
+
+html, body {
+  font-family: "Special Elite", cursive;
+  background-color: #fafaf7;
+  color: #111;
+  letter-spacing: 0.3px;
+  line-height: 1.6;
+}
+
+/* Optional fallback utility classes (still useful for exceptions) */
+.font-body {
+  font-family: "Special Elite", cursive;
+}

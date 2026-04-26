@@ -1,0 +1,14 @@
+.cities-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /* space between cities */
+  flex-wrap: wrap; /* wrap on smaller screens */
+}
+
+.city-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
